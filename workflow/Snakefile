@@ -1,7 +1,5 @@
 rule all:
-    input:
-        "sample.txt"
     output:
-        "size.txt"
+        "output.txt"
     shell:
-        "./script.sh {input} {output}"
+        "workflow/scripts/script.sh {output}"

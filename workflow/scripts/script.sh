@@ -1,3 +1,3 @@
 #!/bin/bash
 
-wc -l $1 > $2
+pwd > $1
