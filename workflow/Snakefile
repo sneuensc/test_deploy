@@ -1,5 +1,7 @@
 rule all:
     output:
         "output.txt"
+    log:
+        "rule_all.log"
     shell:
         "workflow/scripts/script.sh {output}"
